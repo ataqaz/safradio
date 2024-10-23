@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TatarRadioBot</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <script>
         let isActive = false;
 
@@ -26,13 +26,13 @@
 
 <body>
 
-    <div class="four"><h1>САФ балалар<br>радиосы</h1>
+    <div class="four"><h1>Для роботы необходимо перезапустить бота<br>Для этого нажмите на кнопку ниже</h1>
 
     <audio id="audio" autostart="1" autostart="true" preload="none">
-        <source src="https://c7.radioboss.fm:8335/stream" />
+        <source src="https://tatarradio.hostingradio.ru/tatarradio320.mp3" />
     </audio>
 
-    <div class="botón" onclick="this.classList.toggle('active'); play()">
+    <div class="botón" onclick="location.href='https://t.me/tatradiobot?start=radiorestart'">
 
         <div class="fondo" x="0" y="0" width="200" height="200"></div>
         <div class="icono" width="200" height="200">
@@ -40,8 +40,10 @@
             <div class="parte derecha" x="0" y="0" width="200" height="200" fill="#fff"></div>
         </div>
         <div class="puntero"></div>
-        
+
     </div>
+
+</div>
 
 </body>
 
